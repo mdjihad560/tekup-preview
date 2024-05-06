@@ -1,0 +1,167 @@
+
+
+/* responsive */
+@media (max-width: 1550px) {
+    header.tekup-header-section {
+        top: 40px;
+    }
+    .tekup-hero-section{
+        margin: 30px 30px 0;
+    }
+    .tekup-cta-content h2{
+        font-size: 70px;
+    }
+}
+/* responsive */
+@media (max-width: 1399px) {
+    .tekup-cta-content h2{
+        font-size: 55px;
+        line-height: 50px;
+    }
+}
+@media (max-width: 1199px) {
+
+  .tekup-demo-btn .tekup-default-btn {
+    flex: 0 0 42%;
+  }
+  .tekup-demo-info ul li {
+    font-size: 24px;
+    padding: 0 10px;
+}
+
+.tekup-inner-section {
+    height: 700px;
+}
+.tekup-cta-content h2{
+    font-size: 45px;
+    line-height: 42px;
+}
+  
+}
+@media (max-width: 991px) {
+    header.tekup-header-section {
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+  .tekup-menu {
+      margin-top: 30px;
+  }
+  .tekup-hero-section, 
+  .tekup-inner-section, 
+  .tekup-cta-section{
+    margin: 0;
+    border-radius: 0;
+  }
+  .tekup-hero-content{
+      margin-bottom: 40px;
+  }
+.hero-thumb{
+    margin-top: 60px;
+}
+  .tekup-section-title{
+      padding-bottom: 60px;
+      text-align: center;
+  }
+  .tekup-demo-info{
+    margin-bottom: 45px;
+  }
+  .tekup-section-padding {
+      padding: 100px 0;
+  }
+  .tekup-demos-section {
+    padding: 100px 0 50px;
+}
+.tekup-section-padding3 {
+    padding: 100px 0 76px;
+}
+.tekup-section-padding4 {
+    padding: 100px 0 0;
+}
+.tekup-section-padding2{
+    padding: 0 0 100px;
+}
+.tekup-inner-section {
+    height: 600px;
+}
+.tekup-inner-content {
+    max-width: 680px;
+}
+.tekup_screenfix_left {
+    margin-left: auto;
+    max-width: 100%;
+}
+.tekup_screenfix_right {
+    margin-right: auto;
+    max-width: 100%;
+}
+.tekup-cta-wrap {
+    display: block;
+}
+.tekup-demos-thumb{
+    display: none;
+}
+.tekup-cta-content {
+    text-align: center;
+    padding: 100px 20px;
+}
+.tekup-cta-info ul li{
+    justify-content: center
+}
+  
+}
+
+@media (max-width: 767px) {
+    .hero-thumb{
+        margin-top: 40px;
+    }
+    .tekup-hero-shape{
+        display: none;
+    }
+    .tekup-section-padding {
+        padding: 80px 0;
+    }
+    .tekup-demos-section {
+        padding: 80px 0 30px;
+    }
+    .tekup-section-padding3 {
+        padding: 80px 0 56px;
+    }
+    .tekup-section-padding4 {
+        padding: 80px 0 0;
+    }
+    .tekup-section-padding2{
+        padding: 0 0 80px;
+    }
+    .tekup-demo-info{
+        margin-bottom: 25px;
+    }
+    .tekup-inner-section {
+        height: 500px;
+    }
+    .tekup-two-column-btn {
+        margin-top: 35px;
+    }
+    .tekup-cta-content {
+        padding: 80px 0;
+    }
+}
+
+@media (max-width: 575px) {
+.w_50{
+  width: 50%;
+}
+header.tekup-header-section {
+    padding: 15px;
+}
+.tekup-header-btn {
+  padding: 8px 15px;
+}
+.tekup-demo-btn .tekup-default-btn {
+    flex: 0 0 70%;
+}
+.tekup-inner-section {
+    height: 600px;
+}
+
+}
