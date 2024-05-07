@@ -662,6 +662,9 @@ a.tekup-default-btn.outline-btn {
     top: 9px;
     left: 20px;
 }
+.top-arrow img{
+    transform: rotate(-45deg);
+}
 
 .cursor {
     position: fixed;
