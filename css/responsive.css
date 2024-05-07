@@ -20,7 +20,9 @@
     }
 }
 @media (max-width: 1199px) {
-
+    header.tekup-header-section {
+        padding: 15px 60px;
+    }
   .tekup-demo-btn .tekup-default-btn {
     flex: 0 0 42%;
   }
@@ -43,6 +45,7 @@
         width: 100%;
         left: 0;
         top: 0;
+        padding: 15px;
     }
   .tekup-menu {
       margin-top: 30px;

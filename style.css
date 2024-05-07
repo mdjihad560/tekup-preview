@@ -99,12 +99,12 @@ p:last-child{
 HEADER SECTION
 ----------------------------------------------------*/
 header.tekup-header-section {
-    padding: 15px 60px;
+    padding: 15px 115px;
     position: fixed;
-    width: calc(100% - 100px);
+    width: 100%;
     z-index: 99;
     top: 60px;
-    left: 50px;
+    left: 0;
     transition: all 0.4s;
 }
 header.tekup-header-section.sticky-menu{
@@ -379,25 +379,41 @@ HERO SECTION
     gap: 24px;
 }
   
-  .tekup-vertical-slider-top .tekup-vertical-slider-item{
-    animation: scrollingtop 12s linear infinite;
+  .tekup-vertical-slider-top {
+    animation: marqueeTop 40s linear infinite;
    }
   
-   .tekup-vertical-slider-bottom .tekup-vertical-slider-item{
-    animation: scrollingbottom 10s linear infinite;
+   .tekup-vertical-slider-bottom {
+    animation: marqueeBottom 40s linear infinite;
    }
+   .tekup-vertical-slider-item {
+    transition: all .4s ease-out;
+    margin-bottom: 24px;
+}
   
   
-  
-  @keyframes scrollingtop {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-150vh); }
+@keyframes marqueeTop {
+    0% {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0)
+      }
+      100% {
+          -webkit-transform: translate3d(0, -81%, 0);
+          transform: translate3d(0, -81%, 0)
+      }
   }
   
-  @keyframes scrollingbottom {
-    100% { transform: translateY(0); }
-    0% { transform: translateY(-100vh); }
+  @keyframes marqueeBottom {
+    0% {
+          -webkit-transform: translate3d(0, -75%, 0);
+          transform: translate3d(0, -75%, 0)
+      }
+      100% {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0)
+      }
   }
+  
   
   .tekup-inner-content {
     top: 50%;
@@ -591,7 +607,7 @@ a.tekup-default-btn.outline-btn {
     text-transform: capitalize;
     position: fixed;
     right: 10px;
-    bottom: 200px;
+    bottom: 300px;
     z-index: 999;
     -webkit-animation: key1 0.6s ease infinite alternate;
 }
@@ -601,3 +617,21 @@ a.tekup-default-btn.outline-btn {
     100% {transform: translateY(-10px);}
   }
   
+
+
+  .scrollup {
+    background-color: #0119FF;
+    border-radius: 4px;
+    bottom: 50px;
+    color: #fff;
+    display: none;
+    font-size: 20px;
+    height: 40px;
+    line-height: 37px;
+    position: fixed;
+    right: 20px;
+    text-align: center;
+    width: 40px;
+    z-index: 1;
+  }
+
