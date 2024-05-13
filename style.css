@@ -533,6 +533,12 @@ a.tekup-default-btn.outline-btn {
     animation: fly 5s linear infinite;
 }
 
+/* video section */
+.tekup-video-wrap iframe{
+    width: 100%;
+    height: 800px;
+}
+
 /* cta two */
 .tekup_screenfix_right {
     margin-right: calc((-100vw + 100%) / 2);
